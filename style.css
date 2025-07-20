@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e6f0ff;
+    font-family: Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1 );
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+from button{
+    background: #077bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+from button:hover{
+    background: #0556b3;
+}
+a{
+    color: #077bff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    background: #077bff;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#logout{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #dc3545;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+main{
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+section{
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1 );
+}
+.payments img{
+    height: 50px;
+    margin-right: 10px;
+}
+footer{
+    background: #f2f2f2;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
